@@ -1,0 +1,99 @@
+@media only screen and (max-width: 1366px){
+  .main-block .slide-i .wr{
+    max-width: 800px;
+  }
+  .main-block .navigation li.next{
+    right: 3%;
+  }
+  .main-block .navigation li.prev{
+    left: 3%;
+  }
+  .main-container .wr .main-container-header .header-select-wr{
+    padding: 0 10px 0 10px;
+  }
+  .main-container .wr .main-container-header .header-select-wr .select-menu{
+    margin: 0 0 0 10px;
+  }
+  .main-container .wr .main-container-header .free-shipping .round{
+    margin: 0 5px 0 0;
+  }
+  .main-container .wr .main-container-header .free-shipping{
+    padding: 0 5px;
+  }
+  .main-container .wr .main-container-header .keywords{
+    margin: 0 5px;
+  }
+}
+@media only screen and (max-width: 1020px){
+  .main-block .slide-i .wr{
+    padding: 0 10%;
+  }
+  aside{
+    flex-basis: 30%;
+  }
+  .main-container .wr .main-container-wr>.r-side{
+    flex-basis: 67%;
+  }
+  .main-container-wr .r-side .products-list .product-i{
+    flex-basis: 48%;
+  }
+  .main-container-wr .r-side .products-list .product-i-big{
+    flex-basis: 100%;
+  }
+  .main-container .wr {
+    padding: 50px 20px 30px;
+  }
+  .wr {
+    padding: 0 20px;
+  }
+  .container-best-selers .wr .products-list .product-i{
+    flex-basis: 31.5%;
+  }
+  footer .footer-top-nav-menu ul a{
+    white-space: nowrap;
+  }
+  header .header-top .menu-nav ul a{
+    white-space: nowrap;
+    font-size: 11px;
+    margin: 0 13px;
+  }
+  header .header-bottom .l-side .sub-menu ul a{
+    font-size: 10px;
+    margin: 0 15px 0 0;
+    white-space: nowrap;
+  }
+  header .header-bottom .r-side .link a{
+    margin: 0 12px 0 0;
+  }
+  header .header-top .login-button{
+    padding: 5px 20px 4px;
+  }
+  .main-container .wr .main-container-header .header-select-wr .title{
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+  .main-container .wr .main-container-header .keywords input{
+    width: 60px;
+  }
+  .main-container .wr .main-container-header .keywords{
+    margin: 0 10px;
+  }
+  .main-container .wr .main-container-header label{
+    font-size: 10px;
+  }
+  .main-container .wr .main-container-header .price input{
+    width: 25px;
+  }
+  .select-menu select{
+    font-size: 12px;
+  }
+  .main-container .wr .main-container-header .header-select-wr .select-menu{
+    width: 105px;
+  }
+  .main-container .wr .main-container-header .free-shipping .round{
+    margin: -3px 3px 0 0;
+  }
+  .main-container .wr .main-container-header .free-shipping span{
+    display: none;
+  }
+}

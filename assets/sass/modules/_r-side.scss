@@ -1,0 +1,115 @@
+.main-container-wr .r-side {
+  .products-list{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+      .product-i{
+        flex-basis: 31%;
+        background: #ffffff;
+        border-radius: 6px;
+        overflow: hidden;
+        margin: 0 0 3.5% 0;
+        .img-box{
+          margin: 0 0 22px 0;
+          img{
+            width: 100%;
+          }
+        }
+        .description{
+          text-align: center;
+          .name{
+            color: #1c1e23;
+            font-size: 16px;
+            font-weight: 600;
+          }
+          .color{
+            color: #b8bfd3;
+            font-size: 12px;
+            margin: 15px 0;
+            text-transform: uppercase;
+          }
+          .price{
+            color: #343e5c;
+            font-size: 14px;
+            font-weight: 600;
+          }
+        }
+        .inner{
+          padding: 40px;
+        }
+      }
+    .product-i-big{
+      flex-basis: 65.5%;
+      .inner{
+        padding: 0;
+      }
+
+      .img-box{
+        max-width: 100%;
+        margin: 0;
+        img{
+          width: 100%;
+
+        }
+      }
+      .description-inner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        .description {
+          .name {
+            color: #1c1e23;
+            font-size: 16px;
+            font-weight: 600;
+          }
+          .color {
+            color: #b8bfd3;
+            font-size: 12px;
+            margin: 8px 0 0 0;
+            text-transform: uppercase;
+          }
+        }
+        ul{
+          display: flex;
+          a{
+            display: block;
+          }
+          .button-two{
+            padding: 10px 30px 9px;
+            background: #fff;
+            color: #343e5c;
+            text-transform: uppercase;
+            border: 1px solid #e4e9f0;
+            border-radius: 0 20px 20px 0;
+            margin: 0;
+          }
+          .button-one{
+            padding: 10px 30px 9px;
+            background: #fff;
+            color: #343e5c;
+            text-transform: uppercase;
+            border: 1px solid #e4e9f0;
+            border-radius: 20px 0 0 20px;
+            margin: 0 -1px 0 25px;
+            white-space:  nowrap;
+          }
+        }
+      }
+    }
+    .last-product-i{
+      background-image: url("/assets/img/device-11.jpg");
+      background-position: center;
+      background-size: cover;
+      .description{
+        .name{
+          margin: 0 0 10px 0;
+        }
+        .price{
+          font-size: 14px;
+            color: rgba(28,30,35,.5);
+        }
+      }
+    }
+  }
+}

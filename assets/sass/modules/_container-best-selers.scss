@@ -1,0 +1,37 @@
+.container-best-selers{
+  margin: 0 0 3.5% 0;
+  .wr{
+    .title-head{
+      border-bottom: none;
+      border-radius: 6px;
+
+    }
+    .title-head{
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: #343e5c;
+      background: #ffffff;
+      padding: 18px;
+      display: flex;
+      justify-content: center;
+      margin: 0 0 2.5% 0;
+      align-items: center;
+      border-bottom: 1px solid #b9bed1;
+      transition: background .3s;
+      cursor: pointer;
+      a{
+        color: #2754eb;
+        border-bottom: 1px solid #2754eb;
+      }
+    }
+    .products-list{
+      .product-i{
+        flex-basis: 23%;
+        &:last-child{
+          border-right: none;
+        }
+      }
+    }
+  }
+}

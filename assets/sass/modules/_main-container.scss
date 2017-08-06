@@ -1,0 +1,123 @@
+.main-container{
+  .wr{
+    padding: 50px 40px 30px;
+    .main-container-header{
+      background: #ffffff;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 0 30px;
+      .header-select-wr{
+        display: flex;
+        align-items: center;
+        height: 56px;
+        padding: 0 20px 0 20px;
+        border-right: 1px solid #f0f2f7;
+        &.ship-to{
+          border-right: none;
+          border-left: 1px solid #f0f2f7;
+          .select-menu{
+            width:75px;
+          }
+        }
+        .title{
+          font-size: 11px;
+          color: #a1a7bd;
+        }
+        .select-menu{
+          margin: 0 0 0 20px;
+          width:120px;
+        }
+      }
+      .keywords{
+        margin: 0 25px;
+        input{
+          width: 137px;
+          height: 30px;
+          background: #f0f2f7;
+          border: 1px solid #a1a8bd;
+          border-radius: 20px;
+          display: flex;
+          align-items: center;
+          padding: 0 10px;
+          justify-content: center;
+          outline: none!important;
+          color: #b9bfd3;
+          font-size: 11px;
+          margin: 0 10px;
+        }
+      }
+      form{
+        display: flex;
+        align-items: center;
+      }
+      label{
+        font-size: 11px;
+        color: #a1a8bd;
+        text-transform: uppercase;
+      }
+      .price{
+        input{
+          width: 37px;
+          height: 30px;
+          background: #f0f2f7;
+          border: 1px solid #a1a8bd;
+          border-radius: 20px;
+          display: flex;
+          align-items: center;
+          padding: 0 10px;
+          justify-content: center;
+          outline: none!important;
+          color: #b9bfd3;
+          font-size: 11px;
+          margin: 0 10px;
+        }
+      }
+
+      .free-shipping{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 56px;
+          .round{
+            flex-basis: 20px;
+            height: 20px;
+            width: 20px;
+            background: #00e2aa;
+            border-radius: 50px;
+            position: relative;
+            margin: 0 10px 0 0;
+            &:before{
+              content: "";
+              width: 10px;
+              height: 6px;
+              border-left: 1px solid #ffffff;
+              display: block;
+              border-bottom: 1px solid #ffffff;
+              transform: rotate(-45deg);
+              position: absolute;
+              top: 5px;
+              left: 5px;
+            }
+          }
+        span{
+          font-size: 13px;
+          white-space: nowrap;
+        }
+
+
+
+      }
+    }
+    .main-container-wr{
+      display: flex;
+      justify-content: space-between;
+      & > .r-side{
+        flex-basis: 74%;
+      }
+    }
+  }
+
+
+}
